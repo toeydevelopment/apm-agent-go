@@ -28,7 +28,7 @@ import (
 
 // DriverPrefix should be used as a driver name prefix when
 // registering via sql.Register.
-const DriverPrefix = "apm/"
+const DriverPrefix = ""
 
 var (
 	driversMu sync.RWMutex
